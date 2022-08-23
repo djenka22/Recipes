@@ -19,6 +19,10 @@ public class Ingredient {
     @NotBlank
     private String value;
 
+   /* @ManyToOne
+    @JoinColumn(name = "recipe_id")
+    private Recipe recipe;*/
+
     public Ingredient(String value) {
         this.value = value;
     }

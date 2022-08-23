@@ -19,6 +19,10 @@ public class Direction {
     @NotBlank
     private String value;
 
+    /*@ManyToOne
+    @JoinColumn(name = "recipe_id")
+    private Recipe recipe;*/
+
     public Direction(String value) {
         this.value = value;
     }

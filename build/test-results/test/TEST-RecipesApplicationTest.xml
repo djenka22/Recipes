@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RecipesApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-23T15:48:53" hostname="DESKTOP-6RB4JBO" time="14.936">
+<testsuite name="RecipesApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-26T01:48:58" hostname="DESKTOP-6RB4JBO" time="23.775">
   <properties/>
-  <testcase name="start" classname="RecipesApplicationTest" time="14.936"/>
+  <testcase name="start" classname="RecipesApplicationTest" time="23.775"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
@@ -13,48 +13,72 @@ Start test 1?[0m
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.6)
 
-2022-08-23 17:48:54.750  INFO 8724 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.3.1 on DESKTOP-6RB4JBO with PID 8724 (started by Korisnik in C:\Users\Korisnik\Desktop\Recepies\Recipes\Recipes\task)
-2022-08-23 17:48:54.756  INFO 8724 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
-2022-08-23 17:48:56.723  INFO 8724 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-08-23 17:48:56.864  INFO 8724 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 4 JPA repository interfaces.
-2022-08-23 17:48:57.946  INFO 8724 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-23 17:48:57.966  INFO 8724 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-23 17:48:57.967  INFO 8724 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-08-23 17:48:58.194  INFO 8724 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-23 17:48:58.194  INFO 8724 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3337 ms
-2022-08-23 17:48:58.411  INFO 8724 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-08-23 17:48:58.805  INFO 8724 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-08-23 17:48:58.818  INFO 8724 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/postgres'
-2022-08-23 17:48:59.246  INFO 8724 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-08-23 17:48:59.416  INFO 8724 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-08-23 17:48:59.692  INFO 8724 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-08-23 17:48:59.975  INFO 8724 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2022-08-23 17:49:01.244  INFO 8724 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-08-23 17:49:01.256  INFO 8724 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-08-23 17:49:02.098  WARN 8724 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-08-23 17:49:03.016  INFO 8724 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2022-08-23 17:49:03.078  INFO 8724 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-23 17:49:03.102  INFO 8724 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 9.223 seconds (JVM running for 11.146)
-2022-08-23 17:49:03.654  INFO 8724 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-23 17:49:03.654  INFO 8724 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-23 17:49:03.657  INFO 8724 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-26 03:48:59.723  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.3.1 on DESKTOP-6RB4JBO with PID 9588 (started by Korisnik in C:\Users\Korisnik\Desktop\Recepies\Recipes\Recipes\task)
+2022-08-26 03:48:59.728  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2022-08-26 03:49:02.249  INFO 9588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-26 03:49:02.379  INFO 9588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 5 JPA repository interfaces.
+2022-08-26 03:49:03.682  INFO 9588 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-26 03:49:03.754  INFO 9588 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-26 03:49:03.755  INFO 9588 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-08-26 03:49:03.923  INFO 9588 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-26 03:49:03.924  INFO 9588 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4098 ms
+2022-08-26 03:49:04.260  INFO 9588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-26 03:49:04.672  INFO 9588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-26 03:49:04.688  INFO 9588 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/postgres'
+2022-08-26 03:49:05.154  INFO 9588 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-26 03:49:05.384  INFO 9588 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-08-26 03:49:05.901  INFO 9588 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-26 03:49:06.256  INFO 9588 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-08-26 03:49:07.791  INFO 9588 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-26 03:49:07.802  INFO 9588 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-26 03:49:08.762  WARN 9588 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-26 03:49:10.345  INFO 9588 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bab8290, org.springframework.security.web.context.SecurityContextPersistenceFilter@5de32e00, org.springframework.security.web.header.HeaderWriterFilter@383a5260, org.springframework.security.web.authentication.logout.LogoutFilter@110f66e3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ec5d3e1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2c6553c6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4a985388, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@736eb2a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cdc09d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64f1b2fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15c8b75c, org.springframework.security.web.session.SessionManagementFilter@ce5a2ea, org.springframework.security.web.access.ExceptionTranslationFilter@130ad58d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30b075b9]
+2022-08-26 03:49:10.411  INFO 9588 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-26 03:49:10.521  INFO 9588 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-26 03:49:10.541  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 11.54 seconds (JVM running for 13.52)
+2022-08-26 03:49:11.258  INFO 9588 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-26 03:49:11.259  INFO 9588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-26 03:49:11.262  INFO 9588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-26 03:49:11.916  INFO 9588 --- [nio-8080-exec-1] recipes.domain.service.UserService       : user LoginTest1@test.com has been created
 ?[1;31m
 Start test 2?[0m
+2022-08-26 03:49:11.981 ERROR 9588 --- [nio-8080-exec-2] recipes.domain.service.UserService       : user already exist
 ?[1;31m
 Start test 3?[0m
-2022-08-23 17:49:04.487  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:04.488  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:04.488  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
+2022-08-26 03:49:12.020  INFO 9588 --- [nio-8080-exec-3] recipes.domain.service.UserService       : user LoginTest2@test.com has been created
 ?[1;31m
 Start test 4?[0m
-2022-08-23 17:49:04.519  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:04.519  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:04.519  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
+2022-08-26 03:49:12.049  INFO 9588 --- [nio-8080-exec-4] recipes.domain.service.UserService       : user LoginTest3@test.com has been created
 ?[1;31m
 Start test 5?[0m
-2022-08-23 17:49:05.092  INFO 8724 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-08-23 17:49:05.094  INFO 8724 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-08-23 17:49:05.099  INFO 8724 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+?[1;31m
+Start test 6?[0m
+2022-08-26 03:49:12.101  WARN 9588 --- [nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> recipes.web.UserController.registerUser(recipes.domain.models.RegisterDto): [Field error in object 'registerDto' on field 'email': rejected value [Test4test.com]; codes [Email.registerDto.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerDto.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@12adeed7,.*]; default message [email must be valid]] ]
+?[1;31m
+Start test 7?[0m
+2022-08-26 03:49:12.214  WARN 9588 --- [nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> recipes.web.UserController.registerUser(recipes.domain.models.RegisterDto): [Field error in object 'registerDto' on field 'password': rejected value [Test555]; codes [Size.registerDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerDto.password,password]; arguments []; default message [password],2147483647,8]; default message [password size must be at least 8 caracters]] ]
+?[1;31m
+Start test 8?[0m
+2022-08-26 03:49:12.269  WARN 9588 --- [nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> recipes.web.UserController.registerUser(recipes.domain.models.RegisterDto): [Field error in object 'registerDto' on field 'password': rejected value [        ]; codes [NotBlank.registerDto.password,NotBlank.password,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerDto.password,password]; arguments []; default message [password]]; default message [password must not be blank]] ]
+?[1;31m
+Start test 9?[0m
+2022-08-26 03:49:12.569  INFO 9588 --- [nio-8080-exec-9] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
+?[1;31m
+Start test 10?[0m
+2022-08-26 03:49:12.692  INFO 9588 --- [nio-8080-exec-2] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
+?[1;31m
+Start test 11?[0m
+2022-08-26 03:49:12.743  INFO 9588 --- [nio-8080-exec-3] recipes.web.RecipeController             : get recipe before findbyid
+2022-08-26 03:49:12.836  INFO 9588 --- [nio-8080-exec-3] recipes.web.RecipeController             : get recipe after find by id
+?[1;31m
+Start test 12?[0m
+2022-08-26 03:49:12.860  INFO 9588 --- [nio-8080-exec-4] recipes.web.RecipeController             : get recipe before findbyid
+2022-08-26 03:49:12.887  INFO 9588 --- [nio-8080-exec-4] recipes.web.RecipeController             : get recipe after find by id
+?[1;31m
+Start test 13?[0m
+2022-08-26 03:49:13.478  INFO 9588 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-26 03:49:13.484  INFO 9588 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-26 03:49:13.537  INFO 9588 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -64,223 +88,257 @@ Start test 5?[0m
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.6)
 
-2022-08-23 17:49:05.146  INFO 8724 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.3.1 on DESKTOP-6RB4JBO with PID 8724 (started by Korisnik in C:\Users\Korisnik\Desktop\Recepies\Recipes\Recipes\task)
-2022-08-23 17:49:05.146  INFO 8724 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
-2022-08-23 17:49:05.566  INFO 8724 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-08-23 17:49:05.581  INFO 8724 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
-2022-08-23 17:49:05.696  INFO 8724 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-08-23 17:49:05.699  INFO 8724 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-08-23 17:49:05.700  INFO 8724 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-08-23 17:49:05.741  INFO 8724 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-08-23 17:49:05.742  INFO 8724 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 593 ms
-2022-08-23 17:49:05.783  INFO 8724 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2022-08-23 17:49:05.799  INFO 8724 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2022-08-23 17:49:05.799  INFO 8724 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/postgres'
-2022-08-23 17:49:05.848  INFO 8724 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-08-23 17:49:05.859  INFO 8724 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2022-08-23 17:49:06.098  INFO 8724 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-08-23 17:49:06.099  INFO 8724 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-08-23 17:49:06.243  WARN 8724 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-08-23 17:49:06.581  INFO 8724 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2022-08-23 17:49:06.599  INFO 8724 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-23 17:49:06.607  INFO 8724 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 1.498 seconds (JVM running for 14.651)
-?[1;31m
-Start test 6?[0m
-2022-08-23 17:49:06.616  INFO 8724 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-23 17:49:06.618  INFO 8724 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-08-23 17:49:06.619  INFO 8724 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-08-23 17:49:06.633  INFO 8724 --- [nio-8080-exec-1] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:06.633  INFO 8724 --- [nio-8080-exec-1] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:06.633  INFO 8724 --- [nio-8080-exec-1] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-?[1;31m
-Start test 7?[0m
-2022-08-23 17:49:06.660  INFO 8724 --- [nio-8080-exec-2] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:06.661  INFO 8724 --- [nio-8080-exec-2] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:06.661  INFO 8724 --- [nio-8080-exec-2] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-?[1;31m
-Start test 8?[0m
-2022-08-23 17:49:06.707  INFO 8724 --- [nio-8080-exec-3] r.domain.recipe.service.RecipeService    : recipe for update prosao
-2022-08-23 17:49:06.723  INFO 8724 --- [nio-8080-exec-3] r.domain.recipe.service.RecipeService    : recipe for update set name desc date
-2022-08-23 17:49:06.727  INFO 8724 --- [nio-8080-exec-3] r.domain.recipe.service.RecipeService    : recipe for update set category
-2022-08-23 17:49:06.727  INFO 8724 --- [nio-8080-exec-3] r.domain.recipe.service.RecipeService    : recipe for update set ingredients
-2022-08-23 17:49:06.727  INFO 8724 --- [nio-8080-exec-3] r.domain.recipe.service.RecipeService    : recipe for update set directions
-2022-08-23 17:49:06.777  INFO 8724 --- [nio-8080-exec-3] recipes.web.RecipeController             : update
-?[1;31m
-Start test 9?[0m
-2022-08-23 17:49:06.791  INFO 8724 --- [nio-8080-exec-6] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:06.799  INFO 8724 --- [nio-8080-exec-6] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:06.799  INFO 8724 --- [nio-8080-exec-6] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-?[1;31m
-Start test 10?[0m
-?[1;31m
-Start test 11?[0m
-?[1;31m
-Start test 12?[0m
-?[1;31m
-Start test 13?[0m
+2022-08-26 03:49:13.716  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.3.1 on DESKTOP-6RB4JBO with PID 9588 (started by Korisnik in C:\Users\Korisnik\Desktop\Recepies\Recipes\Recipes\task)
+2022-08-26 03:49:13.717  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2022-08-26 03:49:14.375  INFO 9588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-26 03:49:14.424  INFO 9588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2022-08-26 03:49:14.731  INFO 9588 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-26 03:49:14.733  INFO 9588 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-26 03:49:14.735  INFO 9588 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-08-26 03:49:14.915  INFO 9588 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-26 03:49:14.920  INFO 9588 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1199 ms
+2022-08-26 03:49:15.037  INFO 9588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-08-26 03:49:15.122  INFO 9588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-08-26 03:49:15.122  INFO 9588 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/postgres'
+2022-08-26 03:49:15.254  INFO 9588 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-26 03:49:15.277  INFO 9588 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-08-26 03:49:15.688  INFO 9588 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-26 03:49:15.688  INFO 9588 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-26 03:49:15.819  WARN 9588 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-26 03:49:16.240  INFO 9588 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@168f447d, org.springframework.security.web.context.SecurityContextPersistenceFilter@7dc16d33, org.springframework.security.web.header.HeaderWriterFilter@184b24d4, org.springframework.security.web.authentication.logout.LogoutFilter@2a6b6f4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@322f6283, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4164ab12, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4756c8f3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ef4179, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1915879c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58397dee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cc9bde9, org.springframework.security.web.session.SessionManagementFilter@450b99f2, org.springframework.security.web.access.ExceptionTranslationFilter@121ec5c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@237e4ed9]
+2022-08-26 03:49:16.273  INFO 9588 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-26 03:49:16.306  INFO 9588 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-26 03:49:16.318  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 2.723 seconds (JVM running for 19.298)
 ?[1;31m
 Start test 14?[0m
+2022-08-26 03:49:16.346  INFO 9588 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-26 03:49:16.346  INFO 9588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-26 03:49:16.348  INFO 9588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-26 03:49:16.366  INFO 9588 --- [nio-8080-exec-1] recipes.web.RecipeController             : get recipe before findbyid
+2022-08-26 03:49:16.388  INFO 9588 --- [nio-8080-exec-1] recipes.web.RecipeController             : get recipe after find by id
 ?[1;31m
 Start test 15?[0m
+2022-08-26 03:49:16.403  INFO 9588 --- [nio-8080-exec-2] recipes.web.RecipeController             : get recipe before findbyid
+2022-08-26 03:49:16.414  INFO 9588 --- [nio-8080-exec-2] recipes.web.RecipeController             : get recipe after find by id
 ?[1;31m
 Start test 16?[0m
+2022-08-26 03:49:16.482  INFO 9588 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
+2022-08-26 03:49:16.577  INFO 9588 --- [nio-8080-exec-3] recipes.web.RecipeController             : update
 ?[1;31m
 Start test 17?[0m
+2022-08-26 03:49:16.590  INFO 9588 --- [nio-8080-exec-4] recipes.web.RecipeController             : get recipe before findbyid
+2022-08-26 03:49:16.602  INFO 9588 --- [nio-8080-exec-4] recipes.web.RecipeController             : get recipe after find by id
 ?[1;31m
 Start test 18?[0m
 ?[1;31m
 Start test 19?[0m
 ?[1;31m
 Start test 20?[0m
+2022-08-26 03:49:16.707  INFO 9588 --- [nio-8080-exec-7] recipes.web.RecipeController             : get recipe before findbyid
 ?[1;31m
 Start test 21?[0m
 ?[1;31m
 Start test 22?[0m
+2022-08-26 03:49:16.769  INFO 9588 --- [nio-8080-exec-5] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 23?[0m
+2022-08-26 03:49:16.849  INFO 9588 --- [nio-8080-exec-6] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 24?[0m
+2022-08-26 03:49:16.977  INFO 9588 --- [nio-8080-exec-1] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 25?[0m
+2022-08-26 03:49:17.051  INFO 9588 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 26?[0m
+2022-08-26 03:49:17.109  INFO 9588 --- [nio-8080-exec-2] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 27?[0m
-2022-08-23 17:49:07.845  INFO 8724 --- [nio-8080-exec-4] recipes.web.RecipeController             : search
-2022-08-23 17:49:07.871  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.871  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.871  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.875  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.875  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.879  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.879  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.884  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.884  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.884  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.888  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.888  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.888  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.893  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.893  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.893  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.898  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.898  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.899  INFO 8724 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
+2022-08-26 03:49:17.171  INFO 9588 --- [nio-8080-exec-8] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 28?[0m
-2022-08-23 17:49:07.916  INFO 8724 --- [nio-8080-exec-3] recipes.web.RecipeController             : search
-2022-08-23 17:49:07.936  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.936  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.936  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.940  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.940  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.944  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.944  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.950  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.950  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.950  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.957  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.958  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.958  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.964  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.964  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.964  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-[RecipeDto(name=15 recipe test ice-CREAM, description=-, category=Dessert, dateTime=2022-08-23T15:49:07.802077, ingredients=[-, ---', -----], directions=[---, -]), RecipeDto(name=ice-cream, description=-, category=DESSERT, dateTime=2022-08-23T15:49:07.742519, ingredients=[----, --], directions=[-, --, -]), RecipeDto(name=11 ice-creamrecipe test, description=-, category=veryDessert, dateTime=2022-08-23T15:49:07.600677, ingredients=[-, --], directions=[-----, -, ---]), RecipeDto(name=ICE-CREAM, description=----, category=desserT, dateTime=2022-08-23T15:49:07.151061, ingredients=[-, -, --], directions=[---, --, --]), RecipeDto(name=recipe ice-cream 5, description=---, category=Desser, dateTime=2022-08-23T15:49:07.030027, ingredients=[-, --, -], directions=[-, --, ---]), RecipeDto(name=ice-cream, description=-, category=Dessert, dateTime=2022-08-23T15:49:06.909895, ingredients=[--, ---, -], directions=[----, ---])]
-2022-08-23 17:49:07.981  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.981  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.982  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.983  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
-2022-08-23 17:49:07.983  INFO 8724 --- [nio-8080-exec-3] r.infrastructure.mappers.RecipeMapper    : eeevoo mee
+2022-08-26 03:49:17.232  INFO 9588 --- [nio-8080-exec-9] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 29?[0m
-2022-08-23 17:49:07.997  INFO 8724 --- [nio-8080-exec-6] recipes.web.RecipeController             : search
+2022-08-26 03:49:17.314  INFO 9588 --- [io-8080-exec-10] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 30?[0m
-2022-08-23 17:49:08.010  INFO 8724 --- [nio-8080-exec-7] recipes.web.RecipeController             : search
-[]
+2022-08-26 03:49:17.397  INFO 9588 --- [nio-8080-exec-7] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 31?[0m
-2022-08-23 17:49:08.023  INFO 8724 --- [nio-8080-exec-8] recipes.web.RecipeController             : search
+2022-08-26 03:49:17.458  INFO 9588 --- [nio-8080-exec-4] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 32?[0m
-2022-08-23 17:49:08.032  INFO 8724 --- [nio-8080-exec-9] recipes.web.RecipeController             : search
+2022-08-26 03:49:17.522  INFO 9588 --- [nio-8080-exec-5] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 33?[0m
-2022-08-23 17:49:08.040  INFO 8724 --- [io-8080-exec-10] recipes.web.RecipeController             : search
+2022-08-26 03:49:17.583  INFO 9588 --- [nio-8080-exec-6] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 34?[0m
-2022-08-23 17:49:08.049  INFO 8724 --- [nio-8080-exec-1] recipes.web.RecipeController             : search
+2022-08-26 03:49:17.647  INFO 9588 --- [nio-8080-exec-1] r.infrastructure.mappers.RecipeMapper    : user LoginTest2@test.com found
 ?[1;31m
 Start test 35?[0m
-2022-08-23 17:49:08.082  WARN 8724 --- [nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'name': rejected value [null]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.697  INFO 9588 --- [nio-8080-exec-3] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 36?[0m
-2022-08-23 17:49:08.099  WARN 8724 --- [nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'category': rejected value [null]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.764  INFO 9588 --- [nio-8080-exec-2] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 37?[0m
-2022-08-23 17:49:08.107  WARN 8724 --- [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'description': rejected value [null]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.818  INFO 9588 --- [nio-8080-exec-8] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 38?[0m
-2022-08-23 17:49:08.116  WARN 8724 --- [nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'ingredients': rejected value [null]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
+2022-08-26 03:49:17.834  INFO 9588 --- [nio-8080-exec-9] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 39?[0m
-2022-08-23 17:49:08.124  WARN 8724 --- [nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'directions': rejected value [null]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
+2022-08-26 03:49:17.851  INFO 9588 --- [io-8080-exec-10] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 40?[0m
-2022-08-23 17:49:08.133  WARN 8724 --- [nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'name': rejected value [  ]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.867  INFO 9588 --- [nio-8080-exec-7] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 41?[0m
-2022-08-23 17:49:08.140  WARN 8724 --- [nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'category': rejected value [  ]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.881  INFO 9588 --- [nio-8080-exec-4] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 42?[0m
-2022-08-23 17:49:08.150  WARN 8724 --- [nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'description': rejected value [  ]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.894  INFO 9588 --- [nio-8080-exec-5] recipes.web.RecipeController             : search
 ?[1;31m
 Start test 43?[0m
-2022-08-23 17:49:08.161  WARN 8724 --- [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'ingredients': rejected value [[]]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
+2022-08-26 03:49:17.937  WARN 9588 --- [nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'name': rejected value [null]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
 ?[1;31m
 Start test 44?[0m
-2022-08-23 17:49:08.170  WARN 8724 --- [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.recipe.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'directions': rejected value [[]]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
+2022-08-26 03:49:17.957  WARN 9588 --- [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'category': rejected value [null]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
 ?[1;31m
 Start test 45?[0m
-2022-08-23 17:49:08.180  WARN 8724 --- [nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'name': rejected value [null]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.977  WARN 9588 --- [nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'description': rejected value [null]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
 ?[1;31m
 Start test 46?[0m
-2022-08-23 17:49:08.191  WARN 8724 --- [nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'category': rejected value [null]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+2022-08-26 03:49:17.997  WARN 9588 --- [nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'ingredients': rejected value [null]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
 ?[1;31m
 Start test 47?[0m
-2022-08-23 17:49:08.201  WARN 8724 --- [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'description': rejected value [null]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+2022-08-26 03:49:18.016  WARN 9588 --- [nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'directions': rejected value [null]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
 ?[1;31m
 Start test 48?[0m
-2022-08-23 17:49:08.210  WARN 8724 --- [nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'ingredients': rejected value [null]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
+2022-08-26 03:49:18.033  WARN 9588 --- [nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'name': rejected value [  ]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
 ?[1;31m
 Start test 49?[0m
-2022-08-23 17:49:08.220  WARN 8724 --- [nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'directions': rejected value [null]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
+2022-08-26 03:49:18.050  WARN 9588 --- [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'category': rejected value [  ]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
 ?[1;31m
 Start test 50?[0m
-2022-08-23 17:49:08.230  WARN 8724 --- [nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'name': rejected value [  ]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+2022-08-26 03:49:18.065  WARN 9588 --- [nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'description': rejected value [  ]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
 ?[1;31m
 Start test 51?[0m
-2022-08-23 17:49:08.241  WARN 8724 --- [nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'category': rejected value [  ]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+2022-08-26 03:49:18.086  WARN 9588 --- [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'ingredients': rejected value [[]]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
 ?[1;31m
 Start test 52?[0m
-2022-08-23 17:49:08.249  WARN 8724 --- [nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'description': rejected value [  ]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+2022-08-26 03:49:18.114  WARN 9588 --- [nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<recipes.domain.models.ReturnId> recipes.web.RecipeController.createRecipe(recipes.domain.models.RecipeDto): [Field error in object 'recipeDto' on field 'directions': rejected value [[]]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
 ?[1;31m
 Start test 53?[0m
-2022-08-23 17:49:08.261  WARN 8724 --- [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'ingredients': rejected value [[]]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
+2022-08-26 03:49:18.131  WARN 9588 --- [nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'name': rejected value [null]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
 ?[1;31m
 Start test 54?[0m
-2022-08-23 17:49:08.273  WARN 8724 --- [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.recipe.models.RecipeDto): [Field error in object 'recipeDto' on field 'directions': rejected value [[]]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
+2022-08-26 03:49:18.149  WARN 9588 --- [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'category': rejected value [null]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+?[1;31m
+Start test 55?[0m
+2022-08-26 03:49:18.166  WARN 9588 --- [nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'description': rejected value [null]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+?[1;31m
+Start test 56?[0m
+2022-08-26 03:49:18.183  WARN 9588 --- [nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'ingredients': rejected value [null]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
+?[1;31m
+Start test 57?[0m
+2022-08-26 03:49:18.199  WARN 9588 --- [nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'directions': rejected value [null]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
+?[1;31m
+Start test 58?[0m
+2022-08-26 03:49:18.214  WARN 9588 --- [nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'name': rejected value [  ]; codes [NotBlank.recipeDto.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+?[1;31m
+Start test 59?[0m
+2022-08-26 03:49:18.228  WARN 9588 --- [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'category': rejected value [  ]; codes [NotBlank.recipeDto.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+?[1;31m
+Start test 60?[0m
+2022-08-26 03:49:18.243  WARN 9588 --- [nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'description': rejected value [  ]; codes [NotBlank.recipeDto.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+?[1;31m
+Start test 61?[0m
+2022-08-26 03:49:18.258  WARN 9588 --- [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'ingredients': rejected value [[]]; codes [NotEmpty.recipeDto.ingredients,NotEmpty.ingredients,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be empty]] ]
+?[1;31m
+Start test 62?[0m
+2022-08-26 03:49:18.274  WARN 9588 --- [nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<?> recipes.web.RecipeController.updateRecipe(java.lang.Long,recipes.domain.models.RecipeDto,org.springframework.security.core.userdetails.UserDetails): [Field error in object 'recipeDto' on field 'directions': rejected value [[]]; codes [NotEmpty.recipeDto.directions,NotEmpty.directions,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDto.directions,directions]; arguments []; default message [directions]]; default message [must not be empty]] ]
+?[1;31m
+Start test 63?[0m
+2022-08-26 03:49:18.823  INFO 9588 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-26 03:49:18.824  INFO 9588 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-08-26 03:49:18.827  INFO 9588 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2022-08-26 03:49:18.872  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.3.1 on DESKTOP-6RB4JBO with PID 9588 (started by Korisnik in C:\Users\Korisnik\Desktop\Recepies\Recipes\Recipes\task)
+2022-08-26 03:49:18.873  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2022-08-26 03:49:19.544  INFO 9588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-26 03:49:19.594  INFO 9588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2022-08-26 03:49:19.772  INFO 9588 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-26 03:49:19.774  INFO 9588 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-26 03:49:19.774  INFO 9588 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-08-26 03:49:19.832  INFO 9588 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-26 03:49:19.833  INFO 9588 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2022-08-26 03:49:19.885  INFO 9588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-08-26 03:49:19.920  INFO 9588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-08-26 03:49:19.920  INFO 9588 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/postgres'
+2022-08-26 03:49:19.991  INFO 9588 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-26 03:49:20.010  INFO 9588 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-08-26 03:49:20.512  INFO 9588 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-26 03:49:20.513  INFO 9588 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-26 03:49:20.758  WARN 9588 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-26 03:49:21.193  INFO 9588 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7061a5e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@71dbfe64, org.springframework.security.web.header.HeaderWriterFilter@3821a012, org.springframework.security.web.authentication.logout.LogoutFilter@1509dade, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@188ccb6c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@578a12e9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4a0934a8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e02331, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2139aa1f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@142dbf1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cf66f73, org.springframework.security.web.session.SessionManagementFilter@2efda33d, org.springframework.security.web.access.ExceptionTranslationFilter@4df3b838, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4fbebd8e]
+2022-08-26 03:49:21.218  INFO 9588 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-26 03:49:21.249  INFO 9588 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-26 03:49:21.266  INFO 9588 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 2.425 seconds (JVM running for 24.245)
+?[1;31m
+Start test 64?[0m
+2022-08-26 03:49:21.295  INFO 9588 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-26 03:49:21.297  INFO 9588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-26 03:49:21.302  INFO 9588 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-26 03:49:21.358  INFO 9588 --- [nio-8080-exec-1] r.infrastructure.mappers.RecipeMapper    : user LoginTest1@test.com found
+?[1;31m
+Start test 65?[0m
+2022-08-26 03:49:21.552  INFO 9588 --- [nio-8080-exec-2] recipes.web.RecipeController             : get recipe before findbyid
+2022-08-26 03:49:21.567  INFO 9588 --- [nio-8080-exec-2] recipes.web.RecipeController             : get recipe after find by id
+?[1;31m
+Start test 66?[0m
+2022-08-26 03:49:21.589  INFO 9588 --- [nio-8080-exec-3] recipes.web.RecipeController             : search
+?[1;31m
+Start test 67?[0m
+2022-08-26 03:49:21.685  INFO 9588 --- [nio-8080-exec-4] recipes.web.RecipeController             : search
+?[1;31m
+Start test 68?[0m
+?[1;31m
+Start test 69?[0m
+?[1;31m
+Start test 70?[0m
+?[1;31m
+Start test 71?[0m
+?[1;31m
+Start test 72?[0m
+?[1;31m
+Start test 73?[0m
+?[1;31m
+Start test 74?[0m
+?[1;31m
+Start test 75?[0m
+?[1;31m
+Start test 76?[0m
+?[1;31m
+Start test 77?[0m
+?[1;31m
+Start test 78?[0m
+?[1;31m
+Start test 79?[0m
+?[1;31m
+Start test 80?[0m
+?[1;31m
+Start test 81?[0m
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
